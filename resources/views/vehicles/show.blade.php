@@ -4,7 +4,7 @@
 @section('content')
 
 
-{{ $vehicle }}">
+{{ $vehicle }}
 
 
 @endsection

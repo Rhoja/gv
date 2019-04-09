@@ -2,7 +2,6 @@
 @section('title' , 'Vehiculos')
 
 @section('content')
-
-:data="{{ $vehicle }}">
+{{ $vehicle }}
 
 @endsection
