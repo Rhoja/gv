@@ -15,8 +15,15 @@ class AxesController extends Controller
     public function index(Request $request)
     {
 
+       /* if ($request->ajax()) {
+        return response()->json([
+            [ text => 'One',   value => '1'],
+            [ text => 'Two',   value => '2'],
+            [ text => 'Three', value => '3']
+                                ]);
+        }*/
         $axes = Axes::all();
-        return view('setting.axes.index', compact('axes'));
+        return response()->json($axes);       // return view('setting.axes.index', compact('axes'));
     }
 
     /**
