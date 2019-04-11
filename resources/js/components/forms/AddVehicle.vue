@@ -1,5 +1,9 @@
 <template>
+<<<<<<< HEAD
  <div class="container" id="addVehicle">
+=======
+ <div class="container">
+>>>>>>> e6dd4d935c19918535be295b6f50910fd232ee72
     <div class="row">
         <div class="col">
             <div id="desc_form">
@@ -7,6 +11,7 @@
                     <div class="row justify-content-between">
                         <h3 class="text-left">
                             <i class="fas fa-car"></i>
+<<<<<<< HEAD
                                  Nuevo Ingreso Vehiculo </h3>
                     </div>
                 </div>
@@ -25,11 +30,32 @@
         </div><div class="col-md-4">
             <label for="modelo">Modelo</label>
             <input type="text" class="form-control" id=modelo placeholder="Modelo" v-model="modelo">
+=======
+                                 Nuevo Ingreso Vehiculo </h3>   
+                    </div>                                                      
+                </div>                
+            </div>
+        </div>     
+    </div> 
+   <!-- Columna1/3-->       
+    <div iv class="row lpad" >
+        <div class="col-md-4 "     >
+            <label for="empresa">Empresa</label>
+            <input type="text" class="form-control" id=empresa placeholder="Empresa">   
+        </div>
+        <div class="col-md-4">
+            <label for="marca">Marca</label>
+            <input type="text" class="form-control" id=marca placeholder="Marca">
+        </div><div class="col-md-4">
+            <label for="modelo">Modelo</label>
+            <input type="text" class="form-control" id=modelo placeholder="Modelo">
+>>>>>>> e6dd4d935c19918535be295b6f50910fd232ee72
         </div>
     </div>
     <div iv class="row lpad" >
         <div class="col-md-4">
             <label for="serie">Serie</label>
+<<<<<<< HEAD
             <input type="text" class="form-control" id=serie placeholder="Serie" v-model="serie">
         </div>
         <div class="col-md-4">
@@ -51,10 +77,35 @@
                 <option v-for= "moto in smotor" v-bind:key= "moto.value">
                     {{ moto.text }}
                 </option>
+=======
+            <input type="text" class="form-control" id=serie placeholder="Serie">
+        </div>
+        <div class="col-md-4">
+            <label for="placa">Placa</label>
+            <input type="text" class="form-control" id=placa placeholder="Placa">
+        </div><div class="col-md-4">
+            <label for="tcirc">T.Circulacion</label>
+            <input type="text" class="form-control" id=tcirc placeholder="T.Circulación">
+        </div>
+    </div> 
+    <div iv class="row lpad" >
+        <div class="col-md">
+            <label for="capacidad">Capacidad</label>
+            <input type="text" class="form-control" id=capacidad placeholder="Capacidad">
+        </div>
+        <div class="col-md">
+            <label for="motor">Motor</label>
+            <select class="custom-select" id=motor>
+                <option selected>Motores</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+>>>>>>> e6dd4d935c19918535be295b6f50910fd232ee72
             </select>
         </div>
         <div class="col-md">
             <label for="ejes">Ejes</label>
+<<<<<<< HEAD
             <select class="form-control" id=ejes v-model= "sejes">
                 <option v-for= "eje in sejes" v-bind:key= "eje.value" >
                    {{ eje.text }}
@@ -136,6 +187,34 @@ data(){
     // always executed
 
   })*/
+=======
+            <select class="custom-select" id=ejes>
+                <option selected>Ejes</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                </select> 
+                </div>
+        <div class="col-md">
+            <label for="serv">Servicios</label>
+            <select class="custom-select" id=serv>
+                <option selected>Servicios</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+        </div>
+    </div> 
+    <div iv class="row justify-content-center"> 
+        <div class="col-md-4">                              
+        <a class="btn  btn-guarda btn-outline-primary btn-lg">Guardar</a>
+        </div>                    
+    </div> 
+</div>
+   
+</template>
+
+<script>
+>>>>>>> e6dd4d935c19918535be295b6f50910fd232ee72
 
 </script>
 
