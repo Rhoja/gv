@@ -26,6 +26,7 @@
     },
     "dependencies": {
         "sweetalert": "^2.1.2",
+        "vue-bootstrap-datetimepicker": "^5.0.1",
         "vue-flash-message": "^0.7.2"
     }
 }
